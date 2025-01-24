@@ -5,10 +5,11 @@ import string
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
 
-nltk.download("punkt")
+nltk.download("punkt_tab")
 nltk.download("stopwords")
 nltk.download("averaged_perceptron_tagger")
 nltk.download("wordnet")
+nltk.download("omw-1.4")
 
 # Load the text file and preprocess the data
 with open("History of food.txt", "r", encoding="utf-8") as f:
